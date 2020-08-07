@@ -13,7 +13,7 @@ const Search = () => {
                     type='search'
                     placeholder='Search'
                     aria-label='Search'
-                    onChange={e => context.handleSearchChange(e)}
+                    onChange={e => context.handleSearch(e)}
                 />
                 <button className='btn my-2 my-sm-0' type='submit'>
                     Search
