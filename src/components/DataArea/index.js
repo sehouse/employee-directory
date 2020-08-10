@@ -3,6 +3,7 @@ import DataTable from '../DataTable';
 import Nav from '../Nav';
 import DataAreaContext from '../../utils/DataAreaContext';
 import API from '../../utils/API';
+import "./DataArea.css";
 
 const DataArea = () => {
     const [developerState, setDeveloperState] = useState({
